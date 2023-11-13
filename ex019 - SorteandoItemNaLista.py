@@ -8,6 +8,7 @@ a4 = input('Quarto aluno: ')
 
 lista = (a1, a2, a3, a4)
 
+#escolha aleatória com o método choice
 escolhido = choice(lista)
 
 print('O aluno escolhido foi {}'.format(escolhido))
